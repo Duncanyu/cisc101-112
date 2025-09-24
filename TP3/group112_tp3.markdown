@@ -35,7 +35,7 @@
    [Start] -->
    [Input: Days = 3, City = Paris] -->
    
-   For [day, in days 1 - 3] -->
+   For [each day starting with day 1, until day 3] -->
    do
        [1 morning activity] -->
        [1 afternoon activity] -->
@@ -52,10 +52,10 @@
    
    While [Excess budget > 0] -->
    do
-       [find extra activity, retrieve cost] -->
-       [compare costs, if cost > excess budget] -->
-       [yes: continue/do nothing] -->
-       [no: add activity to itinerary, subtract cost from Excess budget] -->
+       [find additional activity, retrieve cost] -->
+       If: [cost > excess budget] -->
+       Yes --> [continue/do nothing] -->
+       No --> [add activity to itinerary, subtract cost from Excess budget] -->
    end while
    
    [Output: Final 1-day travel plan, additional activities each day]
@@ -76,7 +76,7 @@ b. The weather is rainy, so outdoor activities need to be swapped for indoor one
 https://copilot.microsoft.com/shares/xRVkjsZSoNJo3oBcbpDwb
 
 **Reflection**:
-The improved prompt gave the LLM the instructions needed to verify the availability of the museum and weather on the day. Overall allowing the LLM to give real-time, accurate results.
+The improved prompt gave the LLM the instructions needed to verify the availability of the museum and weather on the day. By highlighting these edge cases, the output enforces real-time, accurate resutls that portray the real circumstances of the trip.
 
 ## Set 3: Chain-of-Thought and Few-Shot Prompting
 
@@ -89,7 +89,7 @@ Plan a 1-day Paris itinerary with one museum, one park, and one restaurant. Plea
 https://copilot.microsoft.com/shares/xqmeGrxgguhQ1Z53wAHoM
 
 **Analysis**:
-The updated prompt allowed us to view the LLM's full thought process, allowing us to verify information. The model correctly followed instructions.
+The updated prompt allowed us to view the LLM's full thought process, allowing us to verify information. The model correctly followed instructions, by enforcing each step along the way.
 
 ### Task 3.2: Prompt Reverse Engineering
 
