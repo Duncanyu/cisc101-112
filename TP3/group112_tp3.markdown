@@ -21,12 +21,12 @@
    2. [Input: City = Paris, Days = 1 day, Hotel Budget = $200, Museum Budget = $20, Time window = 10:00 AM – 02:00 PM] -->  
    3. [Select airport hotel] -->  
    4. If [airport hotel cost > Hotel Budget] -->  
-   5. Yes --> [Select alternative hotel] -->  
-   6. No --> [Confirm hotel selection] -->  
+   5. Yes --> [Select alternative hotel, where alternative hotel cost <= Hotel Budget] -->  
+   6. No --> [Confirm original hotel selection] -->  
    7. [Select one museum] -->  
-   8. If: [Museum ticket > #20] -->  
+   8. If: [Museum ticket > $20] -->  
    9. Yes --> [ Replace with public art gallery] -->  
-   10. No --> [Confirm Museum ] -->  
+   10. No --> [Confirm Museum tickets] -->  
    11. [Check for Restaurant type = vegan] -->  
    12. If:[Resturnat type = vegan] -->  
    13. Yes --> [Keep restaurant option] -->  
@@ -39,13 +39,13 @@
    [Start] -->
    [Input: Days = 3, City = Paris] -->
    
-   For [Each Day, starting with day 1] -->
+   For [Each Day until number of Days, starting with day 1] -->
    do
        [1 morning activity] -->
        [1 afternoon activity] -->
        [1 evening activity] -->
    end for
-   
+
    [Output: Final 3-day travel plan in table format]
 
 ### Task 1.3: Flowchart Design with While Loops
