@@ -56,14 +56,14 @@ The analysis that was very similar to the predicted errors, where the lack of an
 ### Task 1.4: Design a Prompt with Variables
 
 **Variable-Based Prompt**:
-  Plan a [amountofdays] itinerary for [city] for an [travelertraits] traveler. Include at least [FreqofLocation1] [Location1], [FreqofLocation2] [Location2], and [FreqofLocation3] [Location3] per day in bullet points with costs. Ensure total cost ≤ [totalbudget], no meal exceeds [individualmealcost] euros, all restaurants must serve [dietaryrestrictions] food, all activities must be open in [travelmonth], transportation should stay under [travelbudget] euros, and at least one evening must feature attending a[specificevent].
+   Plan a [trip length] day itinerary for [travel city] for an [traveler description] traveler. Include at least [number of museums] museums, [number of resturants] restaurants, and [number of parks] parks per day in [output format] with costs. Ensure total cost ≤ [trip cost], no meal exceeds [individual meal cost] euros, all restaurants must serve [dietary restrictions] food, all activities must be open in [month], transportation should stay under [transportation cost] euros, and at least one evening must feature attending a local [specific event]
 
 **Variables categorized list**:
-Quantatiative: [amountofdays],[FreqofLocation1],[FreqofLocation2],[FreqofLocation3],[totalbudget],[individualmealcost],[travelmonth],[travelbudget]
-Qualitative:[City],[travlertraits],[Location1],[Location2],[Location3],[dietaryrestrictions],[specificevent]
+Quantatiative: [trip length], [number of museums], [number of resturants], [number of parks], [trip cost], [individual meal cost], [month], [transporation cost]
+Qualitative: [travel city], [traveler description], [output format], [dietary restrictions], [specific event]
 
 **Analysis**:
-Replacing fixed values with variables makes prompts adaptable, reusable, and easier to test. Variables expose hidden conditions, ensure clarity, and improve flexibility across different scenarios.
+By replacing fixed values with both quantitative and qualitative variables, the prompt becomes a lot more generalized, in short becoming able to be used multiple times, without having to change the general format of the prompt.
 
 ## Set 2: Basic Prompt Design and SE4AI Principles
 
