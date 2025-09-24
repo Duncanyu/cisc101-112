@@ -6,7 +6,7 @@
 
 ## Group Members Names
 
-- Duncan Yu, Brian Xu
+- Duncan Yu, Brian Xu, Noah Arega
 
 ## Set 1: Decomposition and Variables
 
