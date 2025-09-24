@@ -20,13 +20,18 @@ The flowchart showed hidden steps clearly. By clearly defining what the inputs, 
 
 ### Task 1.2: Role-Play Challenge
 
-**Persona Chosen**: Accessibility Seeker: Needs wheelchair-accessible or sensory-friendly activities.
+**Adventure Seeker**: Prioritizes thrilling and active experiences.
 
 **Decomposition**:
-[Additional process one: Make sure that all activities are wheelchair accessible, including the following (Wheelchair ramp, accessible handrail, accessible door-opening button, etc)] --> [Additional process two: Identify any other positives that can be found through the previous processes (newly renovated infrastructure) through news sources and online research. State which activity locations have such benefits, and reweigh previously mentioned activities and outputs]-->[Additional process three: Revisit previously selected locations, and cross references with review from Yelp, google review, reddit etc on accessibility in these sites] --> [Additional Process Four: Locate if there is any other activities that are planned specifically for wheelchair-bound individuals, locate them, and slide them into the itinerary]-->[Additional Process Five: Identify if any locations and activities have disability benefits, such as discounts or special programs]-->[Process Six: Identify altitude of all locations, making sure that proper oxygen content is available in any location. If not available, then identify any services to rent oxygen cans.]
+[Decomposition component one: Add "number of active experience" to input]
+[Decomposition component two: Add "Identify similar activies that are more outdoors, thrilling, and active]
+[Decomposition component three: Add "distance to thrilling activities" as a component when searching for the best hotel]
+[Decomposition component four: Add "Requirement of longer time to sleep at night" to processes, in order for compensate for additional physical exertion in the day]
+[Decomposition component five: Add "Physical Extertion" as a component to consider when creating the travel plan, to ensure enjoyable experience all throughout.]
+[Decomposition component six: Add "Map of city, hotel, and activities" to output, while highlighting any recommeneded walks\running paths in between said activities]
 
 **Analysis**:
-The Accessibility Seeker persona required additional inputs and considerations into the prompt, thus initiating additional checks and processes to be named. From this, it can be seen how important it is to have a clear goal for prompting: Without specifically mentioning any requirements, the output will be generalized, instead of being tailored to any specific needs.
+The Adventure seeker persona highighted the need for additonal decomposition compoennets, whether that be in input, processess or output, in order to better tailor the output for each individual. The importance of having a concise and clear identity is essential in providing the best possible end result given certain requirments.
 
 ### Task 1.3: Decomposition Error Prediction Challenge
 
@@ -38,15 +43,15 @@ The Accessibility Seeker persona required additional inputs and considerations i
 
 **Detected Errors**:
 1. No costs were included anywhere in the itinerary.  
-2. No booking or ticket links were provided.  
+2. No links, booking or travel were provided.  
 3. The schedule ignored travel time, making some transitions unrealistic.  
 4. The itinerary was descriptive but generic, with no personalization to traveler needs.  
 
 **Transcript Link**:
-[\[Copilot share link\]](https://copilot.microsoft.com/shares/nV3hTzsHYGavqPcumMt4n)
+[\[Copilot share link\]](https://copilot.microsoft.com/shares/4Wn9bxPCrYogxuFQukLwA)
 
 **Analysis**:
-The predicted errors matched the test: no costs, missing links, unrealistic timing, and generic suggestions. Without explicit processes, vague prompts produced incomplete and repetitive results.
+The analysis that was very similar to the predicted errors, where the lack of any descriptive requirements created a very generlized output. This generalized output was of not much use, given the lack of costs, timelines, links, and incorrect timings that do not account of travel time. In short, the lack of explicit needs creates a vague and generalized output.
 
 ### Task 1.4: Design a Prompt with Variables
 
