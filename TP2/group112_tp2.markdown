@@ -13,10 +13,10 @@
 ### Task 1.1: Text-Based Flowchart
 
 **Flowchart**:
-[Start] --> [Input: City=Paris, Days=5, Budget=$750] --> [Process: Fetch list of activities] --> [Process: Filter by budget, hours, distance] --> [Process: Select activities] --> [1 museum] --> [1 restaurant] --> [1 park per day] --> [Output: costs per activity] --> [Output: booking links] --> [Output: 5-day itinerary]
+[Start] --> [Input: Destination City=Paris, Trip Length=5, Budget=$750] --> [Process: Fetch list of activities] --> [Process: Filter all activities by budget, hours, distance, until a list of possible activities is generated] --> [Process: Select 1 of each following category, for each day] --> [1 museum] --> [1 restaurant] --> [1 park] --> [Output: costs per activity, booking links, 5-day itinerary]
 
 **Analysis**:
-The flowchart showed hidden steps clearly, it organized inputs, processes, and outputs, making dependencies clear and preventing vague jumps between budgeting, timing, and activities.
+The flowchart showed hidden steps clearly. By clearly defining what the inputs, processes, and outputs are, dependencies are made very clear. Because of this, it helps prevent any possible miscommunication between budgeting, timing, and activities.
 
 ### Task 1.2: Role-Play Challenge
 
@@ -26,7 +26,7 @@ The flowchart showed hidden steps clearly, it organized inputs, processes, and o
 [Additional process one: Make sure that all activities are wheelchair accessible, including the following (Wheelchair ramp, accessible handrail, accessible door-opening button, etc)] --> [Additional process two: Identify any other positives that can be found through the previous processes (newly renovated infrastructure) through news sources and online research. State which activity locations have such benefits, and reweigh previously mentioned activities and outputs]-->[Additional process three: Revisit previously selected locations, and cross references with review from Yelp, google review, reddit etc on accessibility in these sites] --> [Additional Process Four: Locate if there is any other activities that are planned specifically for wheelchair-bound individuals, locate them, and slide them into the itinerary]-->[Additional Process Five: Identify if any locations and activities have disability benefits, such as discounts or special programs]-->[Process Six: Identify altitude of all locations, making sure that proper oxygen content is available in any location. If not available, then identify any services to rent oxygen cans.]
 
 **Analysis**:
-The Accessibility Seeker persona changed decomposition by requiring accessibility checks, reviews, discounts, and environmental considerations, forcing new inputs and processes beyond generic activity selection and budgeting.
+The Accessibility Seeker persona required additional inputs and considerations into the prompt, thus initiating additional checks and processes to be named. From this, it can be seen how important it is to have a clear goal for prompting: Without specifically mentioning any requirements, the output will be generalized, instead of being tailored to any specific needs.
 
 ### Task 1.3: Decomposition Error Prediction Challenge
 
