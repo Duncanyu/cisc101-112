@@ -6,7 +6,7 @@
 
 ## Group Members Names
 
-- Brian Xu
+- Brian Xu, Duncan Yu
 
 ## Set 1: Conditionals and Loops
 
