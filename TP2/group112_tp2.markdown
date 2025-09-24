@@ -70,27 +70,27 @@ By replacing fixed values with both quantitative and qualitative variables, the 
 ### Task 2.1: Prompt Reverse Engineering Challenge
 
 **Inferred Prompt**:
-Create a Markdown table with five columns: Day, Museum, Restaurant, Park, and Cost. Fill in exactly two rows (Day 1 and Day 2). Each activity should list its cost in parentheses. The Cost column should show the total for that day. Do not include any text outside the table.
+Create a 2-day itinerary for Paris under a budget. Present the results in a table with the columns: Day, Museum, Restaurant, Park, and Cost. Each museum and restaurant should list its price in parentheses. Parks should be listed as free. At the end of each row, include the total daily cost. Use realistic Paris locations for each category.
 
 **Transcript Link**:
-https://copilot.microsoft.com/shares/R8u8zrWHCc7fz1ofN3W2b
+https://copilot.microsoft.com/shares/bQKMnio12oSQb4PkjnTD5
 
 **Analysis**:
-The inferred prompt successfully reproduced the table format with all columns. Costs appeared in parentheses, but output control (activities) within the table remained difficult.
+The inferred prompt successfully reproduced the table format with all columns correctly.
 
 ### Task 2.2: Assumption Analysis and Decomposition Challenge
 
 **Assumptions and Ambiguity**:
 1. Copilot assumed the trip was only 3 days, though no duration was specified.  
 2. It assumed restaurant preferences and style without any budget or dietary constraints.  
-3. It interpreted “flows naturally” as visiting famous attractions in proximity, without defining distance, travel time, or traveler type.  
+3. Copilot assumed that the activities must be specific well-known landmarks, restaurants, or attractions in Paris, rather than generic activities.
 
 **Revised Prompt**:
-Create a 3-day Paris itinerary with exactly three activities per day: morning, lunch, and evening. Each day must start with a cultural site, then lunch at a vegetarian-friendly restaurant under €40, and finish with an evening entertainment. Ensure activities are within 2 km of each other, include estimated travel times, and specify costs.  
+Create a 3-day Paris itinerary. Each day must list three activities in this order: a museum in the morning, a lunch restaurant with its price in euros, and an outdoor activity in the evening. All activities should be within 2 km of each other, and the total daily cost must stay under €150. Keep entries concise by giving names and costs only, with no added description.
 
 **Transcript Links**:
 Initial Prompt: https://copilot.microsoft.com/shares/41teig1wSmTY7QuoK2Biu  
-Revised Prompt: https://copilot.microsoft.com/shares/wGb56mXELcWw7uCBwThDE
+Revised Prompt: https://copilot.microsoft.com/shares/57FMR54TE7KkkgAfSMRM2
 
 **Reflection**:
 Working throughg Set 2 showed us how computational thinking helps sharpen prompt design. Reverse engineering the prompt in Task 2.1 forced us to identify hidden rules in the output, like table structure and cost formatting, which shows the need for decomposition and breaking down problems into parts. In Task 2.2, the assumption analysis showed us how missing details (budget, distance, traveler type) in our prompts can lead to vague or biased ouputs. Revising the prompt allowed us to practice specifying constraints, ordering tasks, and controlling flow to avoid ambiguity. Together, these activities demonstrated to us that computational thinking is not just coding logic but also allows us to systematically shape language for predictable, accurate, and testable results.
