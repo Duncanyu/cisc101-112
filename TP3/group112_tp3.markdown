@@ -70,10 +70,10 @@ b. The weather is rainy, so outdoor activities need to be swapped for indoor one
 
 **Improved Prompt**:
 
-```Plan a 1-day Paris itinerary for tomorrow with a budget of $150. Recommend one museum, one park, and one restaurant. Verify the museum's availability on that day, if not open, then suggest a different one. Check weather on that day, if rainy, then swap any outdoor activities with indoor activities.```
+```Plan a 1-day Paris itinerary for tomorrow with a budget of $150. Recommend one museum, one park, and one restaurant. Verify the museum's availability on that day, if not open, then suggest a different one, else keep the currently selected museum. Check weather on that day, if rainy, then swap any outdoor activities with indoor activities, else keep the current activity.```
 
 **Transcript Link**:
-https://copilot.microsoft.com/shares/xRVkjsZSoNJo3oBcbpDwb
+https://copilot.microsoft.com/shares/hYxB8GhhUJWC9TDqNf5TT
 
 **Reflection**:
 The improved prompt gave the LLM the instructions needed to verify the availability of the museum and weather on the day. By highlighting these edge cases, the output enforces real-time, accurate resutls that portray the real circumstances of the trip.
