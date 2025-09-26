@@ -94,21 +94,14 @@ The updated prompt allowed us to view the LLM's full thought process, allowing u
 ### Task 3.2: Prompt Reverse Engineering
 
 **Few shot prompt**:
-Plan a 1-day Paris itinerary under $150 that includes a museum, a park, and a restaurant. Follow the style of these examples: 
-[Example 1]:
-Museum: Louvre ($20)
-Park: Tuileries Garden (Free)
-Restaurant: Le Pain Quotidien ($15)
-Total Cost: $35. 
-[Example 2]: 
-Museum: Musée d’Orsay ($18), 
-Park: Luxembourg Gardens (Free), 
-Restaurant: Café de Flore ($12), 
-Total Cost: $30. 
-Now generate a new itinerary in the same format, with each activity listed and the total cost calculated. Do not add extra commentary.
+Plan a budget-friendly 1-day Paris itinerary under $150 USD. The itinerary must include:
+- one museum,
+- one park,
+- one restaurant.
+Format the output with each item labeled clearly (Museum, Park, Restaurant), include the cost in dollars, and add a short descriptive sentence for each. Conclude with a total cost line. Do not give extra commentary. Give the response in plain text form, no markdown formatting.
 
 **Transcript Link**:
-https://copilot.microsoft.com/shares/rxqXhwBCkp3zdKeLk55zS
+https://copilot.microsoft.com/shares/qNRaFLZWz537YUUq9T2LJ
 
 **Analysis**:
 The updated prompt with 2 shots gave the LLM the information needed to match our expectations completely. It was able to match the ouput entirely.
