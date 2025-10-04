@@ -48,7 +48,7 @@ https://copilot.microsoft.com/shares/AD9X5v7yWUG9Z8RCRywWF
 
 ### Task 2.1: Chain-of-Thought Summarizer Prompt
 **Prompt**:
-Task: Summarize the section called “Model Architecture" from the paper "Attention Is All You Need". Think step by step and show your reasoning before writing the summaries.
+Summarize the section called “Model Architecture" from the paper "Attention Is All You Need". Think step by step and show your reasoning before writing the summaries.
 
 [1] Check if the text is empty or under 50 words. If so, write “Skip: section missing or too short.”
 [2] Read the section carefully. Identify the main goal, the methods used, and any results or examples.
@@ -82,24 +82,84 @@ https://copilot.microsoft.com/shares/64rXorhKf8MokSjtxwnzf
 
 ### Task 3.1: Iterative Refinement with Context Windows
 **Refined Prompt**:
-[Insert refined Few-Shot prompt with context management strategies]
+Use the examples below to learn the format and style of summaries that I want. Each section must have an expert summary, a layperson summary, and a mini glossary with five key terms. Follow the same style to summarize the Introduction, Background, and Results sections.
+
+If the paper is too long to process at once, divide it into smaller parts labeled [chunk1], [chunk2], [chunk3], and so on. Summarize each chunk separately using the same structure, then merge all chunk summaries into one combined final output with consistent tone and one unified glossary.
+
+[Example 1] – Model Architecture
+Expert Summary: The Transformer architecture replaces recurrence and convolution with stacked self-attention and feed-forward layers in an encoder-decoder framework. It employs multi-head attention for diverse representation learning and positional encoding to retain sequence order. This design enables parallelization, reduces path lengths for long-range dependencies, and improves computational efficiency in sequence transduction tasks.
+Layperson Summary: The Transformer is a new kind of AI model that understands sentences without using older methods like loops or filters. It looks at all parts of a sentence at once using “attention.” This makes it faster and smarter at tasks like translating languages or understanding text.
+Mini Glossary: encoder –> reads input, decoder –> produces output, attention –> focuses on important words, multi-head –> uses several attention layers, positional encoding –> tracks word order.
+
+Now summarize each [chunk] or section using the same structure and tone.
+Each summary should stay around 50 words for both expert and layperson versions.
+After all chunks are summarized, merge them into a single final summary with one unified glossary. Please DO NOT include ANY extra commentary.
 
 **Transcript Link**:
-[Insert Microsoft Copilot transcript link]
+https://copilot.microsoft.com/shares/6UuWphNsvg8UT5LpYqAFk
 
 ### Task 3.2: Hallucination-Proofing Your Prompts
 **Original Prompts**:
-[Insert 2 original prompts from earlier tasks]
+Task 1.2 - summarization prompt:
+You are a summarization assistant.
+Attached to this query is a PDF called "Attention Is All You Need"
+
+[1] Go through each section from first to last.
+[2] If a section is missing or empty, skip it and write “Skipped: Missing or Empty Text.”
+[3] If a section has fewer than 50 words, skip it and write “Skipped: Too Few Words.”
+[4] Otherwise, summarize the section by stating the purpose or problem, main methods or ideas, key results, and one-sentence takeaway.
+[5] After all sections are checked, list the summarized sections, the skipped ones with reasons, and give counts for total, summarized, and skipped sections.
+
+Task 2.2 - Few shot prompt:
+
+Use the examples below to learn the format and style of summaries that i want. Each section must have an expert summary, a layperson summary, and a mini glossary with five key terms. Follow the same style to summarize the Introduction, Background, and Results sections.
+
+[Example 1] - Model Architecture
+Expert Summary: The Transformer architecture replaces recurrence and convolution with stacked self-attention and feed-forward layers in an encoder-decoder framework. It employs multi-head attention for diverse representation learning and positional encoding to retain sequence order. This design enables parallelization, reduces path lengths for long-range dependencies, and improves computational efficiency in sequence transduction tasks.
+Layperson Summary: The Transformer is a new kind of AI model that understands sequences like sentences without using older methods like loops or filters. Instead, it looks at all parts of a sentence at once using “attention.” This makes it faster and smarter at tasks like translating languages or understanding text.
+Mini Glossary: encoder –> reads input, decoder –> produces output, attention –> focuses on important words, multi-head –> uses several attention layers, positional encoding – tracks word order.
+
+Now summarize each new section using the same structure and tone.
+Each summary should stay around 50 words for both expert and layperson versions.
+Do not include extra commenatry.
 
 **Rewritten Prompts (with hallucination-mitigation rules)**:
-[Insert 2 rewritten prompts]
+Task 1.2 - summarization prompt:
+Attached is a PDF titled “Attention Is All You Need.”
+This summarization task follows a controlled specification.
+
+[1] Go through each section from first to last.
+[2] If a section is missing or empty, write “Skipped: Missing or Empty Text.”
+[3] If a section has fewer than 50 words, write “Skipped: Too Few Words.”
+[4] Otherwise, summarize the section by stating the purpose or problem, main methods or ideas, key results, and a one-sentence takeaway.
+[5] After all sections are checked, list summarized sections, skipped ones with reasons, and counts for total, summarized, and skipped sections.
+[6] Hallucination Mitigation Rule: Please only included information explicitly present in the paper. Do not infer, guess, or use outside knowledge. If the content is unclear, write “Information not stated in paper.”
+[7] Validation Rule: Verify each summary against the source text before moving to the next section.
+
+Task 2.2 - Few shot prompt:
+
+Use the examples below to learn the format and style of summaries.
+Each section must have an expert summary, a layperson summary, and a mini glossary of five key terms. Follow the same style to summarize the Introduction, Background, and Results sections.
+
+[Example 1] – Model Architecture
+Expert Summary: The Transformer architecture replaces recurrence and convolution with stacked self-attention and feed-forward layers in an encoder-decoder framework. It employs multi-head attention for diverse representation learning and positional encoding to retain sequence order. This design enables parallelization, reduces path lengths for long range dependencies, and improves computational efficiency in sequence tasks.
+Layperson Summary: The Transformer is a new AI model that reads sentences without using loops or filters. It looks at all words at once using “attention,” making it faster and smarter for translation and text tasks.
+Mini Glossary: encoder –> reads input, decoder –> produces output, attention –> focuses on important words, multi-head –> uses several attention layers, positional encoding –> tracks word order.
+
+Now summarize each new section using the same structure and tone.
+Each summary should stay around 50 words for both expert and layperson versions.
+Hallucination Mitigation Rule: Only use information explicitly found in the text. If the paper does not state something, write “Not mentioned in the paper.” Do not insert background knowledge or assumptions.
+Spec Constraint: Input = paper text, Output = structured summaries and glossary, Constraint = accurate and verifiable content only.
+Please, DO NOT include ANY extra commentary.
 
 **Transcript Link**:
-[Insert Microsoft Copilot transcript link]
+Task 1.2: https://copilot.microsoft.com/shares/khjzqQxCzn6WaCeHthgDx
+Task 2.2: https://copilot.microsoft.com/shares/MkmhXWX5kFWiPHKYqbxfK
 
 **25-word Reflection**:
-[Insert reflection on how hallucination-proofing changed the outputs]
+Adding hallucination mitigation constraints made only slight differences. The summaries stayed focused and consistent, with similar length and tone, likely due to the small data size of the material and the clarity of the writing.
 
 ---
 
 ## Group Reflection (100 words)
+Throughout this tutorial, we all learned how structured prompting techniques are used to make LLM outputs more accurate and reliable. Decomposition helped us clearly define each stage of summarization. VAriables, loops, and conditionals controlled what happens during repetition, and edge cases. CoT prompting and few shot prompting improved and displayed reasoning and format consistency. Managing context windows prevented overflow and ensured each chunk was unanimously processed, and the results were all coherent. Hallucination mitigation reinforced knowledge by having the LLM verify it's response with the source text. Our group found loops and conditional logic hardest to apply conceptually and fewshot prompting and hallucination controls were the most useful for giving us clear and verifiable results in real world academic contexts.
