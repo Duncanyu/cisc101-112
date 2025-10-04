@@ -43,6 +43,53 @@ Attached to this query is a PDF called "Attention Is All You Need"
 https://copilot.microsoft.com/shares/AD9X5v7yWUG9Z8RCRywWF
 
 ---
+###Task 1.3:
+
+1. 
+   [Inputs: sections list, each with section_title + subsections list] -->
+  [Start] --> 
+    [Inputs: sections list with section_title + section_text] --> 
+    For [each section starting with the first, until the last] --> 
+    do
+        For [each subsection starting with the first, until the last] -->
+        [Check if section text is missing or empty] -->
+            If [yes] -->
+                [Skip and write down: "Skipped: Missing/Empty Text"] -->
+                [continue / go to next section]
+            Else -->
+                [Check if section text is < 50 words] -->
+                    If [yes] -->
+                        [Skip and write down: "Skipped: Too Few Words"] -->
+                        [continue / go to next section]
+                    Else --> 
+                        [Summarize section: Identify the purpose and problem, Identify the main methods and formulas, Identify key results and evidence/examples, Write a one sentence summary/takeawy] -->
+                        [Add summary to list]
+    end for -->
+    [Outputs: Outputs: Markdown summaries grouped by section (100-150 words) + skip message of any message, with bullet points for each subsection]
+   ```
+   
+   
+
+2. 
+Summarize the section called “Model Architecture" from the paper "Attention Is All You Need". Think step by step and show your reasoning before writing the summaries.
+[1] Identify all section names, and for section named "Model Architecture" from the paper "Attention Is All You Need" attached to this inquiry, continue.
+[2] For each subsection, do steps 3-8
+[3] Check if the text is empty or under 50 words. If so, write “Skip: section missing or too short.”
+[4] Read the section carefully. Identify the main goal, the methods used, and any results or examples.
+[5] Explain your reasoning in short lines that show how the ideas connect.
+[6] Write a 100 word expert summary using technical language.
+[7] Write a 50 word layperson sumary using everyday language.
+[8] List five key terms from the section with one-line plain explanations as a mini glossary.
+
+
+3. Test your prompt with the Attention is All You Need paper. Save transcript.
+https://copilot.microsoft.com/shares/LRXw2UTtRgF2B54Sr3yQu
+
+4. Write a 25-word reflection on what you learned from this task. Did your design include an if-statement? If yes, did the if-statement instructed the model to display a message that a section has or doesn't have any subsections? How satisfied are you with the model's output?
+
+Our design did include a few if-statements, in order to instruct the model on edge cases. For the model's output, it followed the proper guidelines properly, including both expertand layperson summaries.
+
+---
 
 ## Set 2: CoT and Few-Shot Prompting
 
