@@ -7,7 +7,8 @@
 ## Set 1: Decomposition, Edge Cases and Loops
 ### Task 1.1: Decomposition with Variables
 **Decomposition Flowchart**:
-[Start] --> [Inputs: Paper title: "Attention Is All You Need" (Arxiv Id: 1706.03762v7). Paper Content has been uploaded as an attached pdf.  ]
+[Start] --> [Inputs: Paper title: "Attention Is All You Need" (Arxiv Id: 1706.03762v7). Paper Content has been uploaded as an attached pdf.  ADD THIRD INPUT] --> [Step 1: Identify sections of the paper.] --> [Step 2: Create general summary of each section] --> [Step 3: Extract key points from general summary.] --> [Output: Section names, Extracted key points in bullet point form. ADD THIRD OUTPUT] 
+     
 
 ### Task 1.2: Conditional Flowchart for Edge Cases
 **Flowchart**:
