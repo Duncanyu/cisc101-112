@@ -12,7 +12,14 @@
 
 ### Task 1.2: Conditional Flowchart for Edge Cases
 **Flowchart**:
-[Insert text-based flowchart with conditionals]
+ [Start] --> 
+   [Inputs: sections list with section_title + section_text] --> 
+   For [each Number_sections, starting from 1 and stopping at Number_sections] --> 
+   [] --> 
+   [] -->
+   ....
+   [] -->
+   [Outputs: Markdown summaries + skip messages for all sections]
 
 **Summarization Prompt**:
 [Insert prompt with edge-case handling]
