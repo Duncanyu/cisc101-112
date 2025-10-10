@@ -30,8 +30,10 @@
 ### Task 2.1: Self-Consistency Assumption Analysis
 
 **Transcript Links:**
-https://copilot.microsoft.com/shares/URCosj4bxVPFiZj9JJDSn
+https://copilot.microsoft.com/shares/URCosj4bxVPFiZj9JJDSn 
+
 https://copilot.microsoft.com/shares/Q5yVviHbTYdnFr8vw59wt
+
 https://copilot.microsoft.com/shares/Gx1mRW5hosnyyEHSdVuzH
 
 **Comparison Notes:**
