@@ -1,6 +1,3 @@
-
-**Submission Template**:
-
 # Week 6 Group Reflection
 
 ## Group Members
@@ -12,15 +9,10 @@
 
 ### Task 1.1: Zero-Shot Prompt and Comparison
 
-**Zero-Shot Prompt:**
-[Insert zero-shot prompt text]
+Transcript link (zero-shot prompt) - https://copilot.microsoft.com/shares/9GKWhsrZH7AHP2g5Yu2DH
+Transcript link (few-shot prompt) - https://copilot.microsoft.com/shares/UcL6sW9NQzpfbwoGSeQ7t
 
-**Transcript Links:**
-- [Zero-shot output link]
-- [Few-shot output link (from TP3 reuse)]
-
-**Analysis (25 words):**
-[Insert reflection on clarity, structure, or tone differences]
+Analysis - When the prompt was zero-shot formatted, meaning no examples were provided, it went into greater detail in terms of budget, activities, and schedule, because, in theory, the AI thought anything was possible with this itinerary. However, when specific examples were provided later on, the output was concise, listing only four lines: cost, restaurant, museum, and park.
 
 ---
 
@@ -29,23 +21,25 @@
 ### Task 2.1: Self-Consistency Assumption Analysis
 
 **Transcript Links:**
-- [Version 1 link]
-- [Version 2 link]
-- [Version 3 link]
+https://copilot.microsoft.com/shares/URCosj4bxVPFiZj9JJDSn 
+
+https://copilot.microsoft.com/shares/Q5yVviHbTYdnFr8vw59wt
+
+https://copilot.microsoft.com/shares/Gx1mRW5hosnyyEHSdVuzH
 
 **Comparison Notes:**
-- **Strengths:** [Insert key points]
-- **Weaknesses:** [Insert key points]
-- **Differences:** [Insert key points]
+- **Strengths:** [Concise information, accurate limitation on budgetary demands]
+- **Weaknesses:** [Too varied without any specific actions, benefits do not apply to a large variety]
+- **Differences:** [Emphasis on each activity differs (Activity itself or surrounding impact done by activity), or very jutted outputs with little correlation between them]
 
 **Selected Itinerary:**
-[Paste or summarize selected version]
+[(https://copilot.microsoft.com/shares/Q5yVviHbTYdnFr8vw59wt)]
 
 **Justification:**
-[Explain why this version is best suited for the client]
+This version is best suited for the client based on the existing requirements for neatness, while accounting for all additional needs by the client
 
 **Analysis (25 words):**
-[Insert reflection on self-consistency benefits]
+The benefit of self-consistency is that it allows for improving the accuracy of each prompt output not by repeatedly scrutinizing each prompt element, but by allowing the Large Language Model to do most of the heavy lifting.
 
 ---
 
@@ -115,5 +109,5 @@ Future iterations should ensure that the output remains strictly aligned with th
 **Prompt Engineering Reflection:**
 
 
-[Insert 100-word group reflection here]
+[For prompt engineering, there has been a large introduction and review for the past few concepts that have been learnt in class. From the initial zero shot prompting, there has been a increase in the varied challenges needed for the different needs of prompters. The analysis given by self-correcting prompts was a large gamechanger, as it allowed for the Large language model to do most of the heavy lifting on enabling a benefical prompt. For Set 3 and onwards, the design element of prompting was brought to the forefront. Instead of decomposition seen in earlier prompting questions, the prompt is built from the ground up, forcing a different logical sequence on emphsis towards prompt patterns and elements. Overall, the prompting required and completed throughout this assignment has been very beneficial.]
 
