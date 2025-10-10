@@ -16,7 +16,7 @@
 Transcript link (zero-shot prompt) - https://copilot.microsoft.com/shares/9GKWhsrZH7AHP2g5Yu2DH
 Transcript link (few-shot prompt) - https://copilot.microsoft.com/shares/UcL6sW9NQzpfbwoGSeQ7t
 
-Analysis - When the prompt was zero-shot formatted, as in no examples were provided, it went into way more detail in terms of budget, activities, and schedule because, in theory, the AI thought anything was possible with this itinerary. However, when specific examples were provided later on, it had a very concise output of cost, restaurant, museum, and park that was only four lines.
+Analysis - When the prompt was zero-shot formatted, meaning no examples were provided, it went into greater detail in terms of budget, activities, and schedule, because, in theory, the AI thought anything was possible with this itinerary. However, when specific examples were provided later on, the output was concise, listing only four lines: cost, restaurant, museum, and park.
 
 ---
 
