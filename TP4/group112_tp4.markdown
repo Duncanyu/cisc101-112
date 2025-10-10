@@ -36,10 +36,10 @@ https://copilot.microsoft.com/shares/Gx1mRW5hosnyyEHSdVuzH
 [(https://copilot.microsoft.com/shares/Q5yVviHbTYdnFr8vw59wt)]
 
 **Justification:**
-This version is best suited for the client based on the existing requirements for neatness, while accounting for all additional needs by the client
+This version is best suited for the client based on the existing requirements for neatness, while accounting for all additional needs by the client. On other prompts and especially on prompt output one, activities and thoughts were very split apart.
 
 **Analysis (25 words):**
-The benefit of self-consistency is that it allows for improving the accuracy of each prompt output not by repeatedly scrutinizing each prompt element, but by allowing the Large Language Model to do most of the heavy lifting.
+The benefit of self-consistency is that it allows for improving the accuracy of each prompt output not by repeatedly scrutinizing each prompt element, but by allowing the Large Language Model to do most of the heavy lifting on fixing the prompt to fit the needs of each user
 
 ---
 
