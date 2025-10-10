@@ -1,7 +1,7 @@
 # Week 6 Group Reflection
 
 ## Group Members
-- [List all group members’ names]
+- Brian Xu, Noah Arega, Duncan Yu
 
 ---
 
