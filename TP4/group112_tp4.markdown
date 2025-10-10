@@ -50,7 +50,7 @@ The benefit of self-consistency is that it allows for improving the accuracy of 
 **Specifications for “Daily Budget Breakdown” Feature:**
 - **Inputs:** Total daily budget and currency, itinerary (destinations, dates, available activities), group size
 - **Outputs:** Daily budget breakdown that lists each day's activities and costs, calculated total daily cost with comparison again user's budget, remaining amount or if it exceeds the user budget, summary displaying trip cost, average daily spending, and any days over budget
-- **Constraints:** Total daily cost must not exceed the user's specificed daily budget, format must be concise yet include enough context to maintain visual clarity, 
+- **Constraints:** Total daily cost must not exceed the user's specificed daily budget, format must be concise yet include enough context to maintain visual clarity, emphasis on budgeting time and money.
 
 ---
 
