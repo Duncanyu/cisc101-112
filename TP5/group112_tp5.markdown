@@ -1,4 +1,4 @@
-Names: Duncan Yu
+Names: Duncan Yu, Brian, Noah Arega
 
 ### Task 1.1
 
