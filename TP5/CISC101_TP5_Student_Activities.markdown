@@ -79,7 +79,7 @@ Now you will write tests for those cases and verify them using TDD.
 
 1. Refer to the edge cases you chose in TP M3/8, Set 2, Task 2.1.
 
-2. **Red (Write Minimal Prompt)**: Write a failing test and record it in the table below as "T5". Begin with the final version of the refined prompt you wrote in Task 1.1 above.
+2. **Red (Write Minimal Prompt)**: Write a failing test and record it in the table below as "T5". Begin with the final version of the refined prompt you wrote in Task 1.1 above. WHAT IN THE FUCK IS THE FUCKING PURPOSE OF THIS BULLSHIT. THIS IS THE REASON WHY THE GUY HAS A 1.1/5 WHAT AM I WRITING A TEST FOR IF I ALREADY FUCKING REFINED IT IN 1.1
 
 3. Run the prompt in Microsoft Copilot (guest mode). Record Fail/Pass in the table for T5.
 
