@@ -9,9 +9,9 @@
 **Format Selection Table**:
 | Prompt | Chosen Format | Justification |
 |--------|---------------|---------------|
-| Eco-tour Iceland | | |
-| Luxury Cruise | | |
-| Surprise Getaway | | |
+| Eco-tour Iceland | Markdown List |Need for clarity and flexibility|
+| Luxury Cruise | Table | With expensive costs, need for detailed planning of dates, costs, etc. |
+| Surprise Getaway | JSON | easy intergration into other software, or simply keeping most of the surprise intact.|
 
 ## Set 2: Modular Prompt Systems
 
@@ -30,3 +30,4 @@
 ```
 
 **Deliverables**: Markdown file (`group#_week9_reflection.md`) with all task outputs, transcript links, and 100-word reflection.
+
