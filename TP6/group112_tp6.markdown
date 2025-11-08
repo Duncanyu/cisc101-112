@@ -17,7 +17,12 @@
 
 ### Task 2.1: Modularizing Prompts 
 **Prompts**:
-[Insert Module 1 output]
+{
+  "city": "Vancouver",
+  "days": 5,
+  "theme": "Architecture and views"
+}
+
 
 [Insert Module 2 prompt]
 [Insert transcript link]
@@ -30,4 +35,5 @@
 ```
 
 **Deliverables**: Markdown file (`group#_week9_reflection.md`) with all task outputs, transcript links, and 100-word reflection.
+
 
