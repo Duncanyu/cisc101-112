@@ -11,7 +11,7 @@
 |--------|---------------|---------------|
 | Eco-tour Iceland | Markdown List |Need for clarity and flexibility|
 | Luxury Cruise | Table | With expensive costs, need for detailed planning of dates, costs, etc. |
-| Surprise Getaway | JSON | easy intergration into other software, or simply keeping most of the surprise intact.|
+| Surprise Getaway | JSON | Easy intergration into other software, with data being able to be hidden in software.|
 
 ## Set 2: Modular Prompt Systems
 
@@ -35,6 +35,7 @@ From the tasks done in TP6, I've learned from using data formating like JSON to 
 ```
 
 **Deliverables**: Markdown file (`group#_week9_reflection.md`) with all task outputs, transcript links, and 100-word reflection.
+
 
 
 
