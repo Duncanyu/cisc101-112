@@ -68,14 +68,29 @@ Writing tests first exposed gaps in my prompts  so each revision deliberately ad
 
 
 **Module A**  
-[Insert prompt text]  
-**Transcript Link:** [Insert link]
+Summarize the Model Architecture section of the research paper “Attention Is All You Need” for an expert audience of machine learning researchers.
+
+Write about 100 words.
+
+Focus on the transformer architecture itself: self-attention mechanism, multi-head attention, positional encoding, encoder–decoder stack, and how these components replace recurrence and convolution.
+
+Use technical terminology precisely and concisely, assume familiarity with sequence-to-sequence models, RNNs, and CNNs, and highlight only the most important design decisions and motivations, not basic background.
+[Transcript Link](https://copilot.microsoft.com/shares/4q6F1oF1ojMkbzWWeJWhH)
 
 **Module B**  
-[Insert prompt text]  
-**Transcript Link:** [Insert link]
+Here is a technical summary of the Model Architecture section of the research paper “Attention Is All You Need”:
+
+[The Transformer architecture eliminates recurrence and convolution by relying entirely on self-attention to model global dependencies. Both encoder and decoder stacks comprise six identical layers, each combining multi-head self-attention with position-wise feed-forward networks, wrapped in residual connections and layer normalization. Multi-head attention projects queries, keys, and values into multiple subspaces, enabling richer contextual representations at constant path length. Decoder self-attention employs causal masking to preserve autoregressive generation, while encoder–decoder attention links source and target sequences. Positional encodings, implemented via sinusoidal functions, inject sequence order information absent in pure attention. This design achieves parallelization, reduced sequential operations, and superior long-range dependency modeling.]
+
+Rewrite this as a ~100-word explanation for a general audience with no background in machine learning.
+
+This explanation should still be clearly identified as describing the “Attention Is All You Need” model.
+
+Keep all core facts accurate, replace jargon with everyday language, use one or two simple analogies, avoid equations and acronyms, and focus on what the model does and why it matters.
+[Transcript Link](https://copilot.microsoft.com/shares/fQ7hLfGcZqJUtUB3BAnit)
 
 **Answer to step 5**
-[insert answer]
+My original prompt named the paper.
 
-**50-word Reflection:**  
+**50-word Reflection:**
+Separating expert and lay lenses made me control tone more deliberately and avoid muddled middle ground explanations. The expert module improved reliability by enforcing precise terminology. The lay module most improved readability, since rewriting from a technical scaffold let me focus on clarity, analogies and gentle pacing for different reader groups.
