@@ -1,7 +1,7 @@
 # Week 10 Group Reflection
 
 ## Group Members
-- Brain Xu, Duncan Yu, NArega
+- Brain Xu, Duncan Yu, Noah Arega
 
 ---
 
