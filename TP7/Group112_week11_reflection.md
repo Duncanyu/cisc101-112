@@ -17,6 +17,15 @@
 **Public Links to Module Files:**  
 Link to Module folder: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/tree/main/modules
 
+Module 0: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/00_reference_framework.md
+Module 1: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/01_intake_setup.md
+Module 2: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/02_plan_builder.md
+Module 3: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/03_feasibility_guardrails.md
+Module 4: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/04_render_refine.md
+Presentation Module: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/presentation_rule.md
+Quality Targets Module: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/quality_targets.md
+Summary Module: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/summary.md
+
 ---
 
 ## Set 2: Making a Branch, Changing One Module, and Merging
@@ -29,7 +38,8 @@ Link to Module folder: https://github.com/Nightbear1/CISC101-Group112-TravelPlan
 
 ### Task 2.2: Edit a Module and Merge It Back
 **Edited Module File Link:**  
-(https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/pull/1/commits/0adf83eac228c910ef7f9d0b4443dcccf82853a7)
+Module 4 link: https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/blob/main/modules/04_render_refine.md
+Pull request link: (https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/pull/1/commits/0adf83eac228c910ef7f9d0b4443dcccf82853a7)
 
 ---
 
