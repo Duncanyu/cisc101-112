@@ -29,7 +29,7 @@ Link to Module folder: https://github.com/Nightbear1/CISC101-Group112-TravelPlan
 
 ### Task 2.2: Edit a Module and Merge It Back
 **Edited Module File Link:**  
-[Insert link to the edited module on your branch]
+(https://github.com/Nightbear1/CISC101-Group112-TravelPlanner/pull/1/commits/0adf83eac228c910ef7f9d0b4443dcccf82853a7)
 
 ---
 
