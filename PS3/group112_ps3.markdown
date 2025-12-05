@@ -1,3 +1,6 @@
+# Names
+Duncan Yu, Brian Xu, Noah Arega
+
 # Task 1.1
 ```
 You are an expert prompt engineer and technical writer. Generate a complete “Research Paper Summarizer” prompt project as Markdown files.
