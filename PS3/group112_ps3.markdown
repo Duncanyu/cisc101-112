@@ -30,10 +30,10 @@ Generate:
 DELIVERABLE FORMAT (MANDATORY)
 Return your answer as SEPARATE Markdown code blocks, one per file, each beginning with the file path as a heading inside the code block, exactly like:
 
-````md
+'''md
 # /system_prompt.md
 ...file contents...
-````
+'''
 
 FILES YOU MUST OUTPUT
 - /system_prompt.md
